@@ -1,0 +1,15 @@
+.logo {
+    object-fit: contain;
+    width: 176px;
+    height: 52px;
+    
+    
+}
+
+@media (max-width: 340px) {
+    .logo {
+        width: 142px;
+        height: 42px;
+    }
+}
+
