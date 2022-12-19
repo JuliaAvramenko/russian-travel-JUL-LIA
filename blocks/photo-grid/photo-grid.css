@@ -3,4 +3,28 @@
     /* grid-template-columns: repeat(auto-fit, 160px 1fr); */
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 16px; 
+    padding-left: 48px;
+    padding-right: 48px; 
+}
+
+@media (max-width: 1024px) {
+    .photo-grid {
+        gap: 14; 
+    }
+}
+
+@media (max-width: 768px) {
+    .photo-grid {
+        gap: 16; 
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .photo-grid {
+        gap: 12; 
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
