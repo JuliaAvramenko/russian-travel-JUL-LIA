@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 24px;
+    
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer {
+        margin-left: 16px;
+        margin-right: 118px;
+        flex-wrap: wrap;
+    }
+}

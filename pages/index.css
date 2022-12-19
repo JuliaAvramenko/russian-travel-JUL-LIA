@@ -1,6 +1,10 @@
 @import url(../vendor/normalize.css);
 
+@import url(../fonts_inter/Inter\ Web/inter.css);
+
 @import url(../blocks/pages/pages.css);
+@import url(../blocks/pages/__container/pages__container.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/languages/languages.css);
 @import url(../blocks/languages/__link/_selected/languages__link_selected.css);
@@ -33,17 +37,19 @@
 @import url(../blocks/place/__container/place__container.css);
 @import url(../blocks/places/places.css);
 
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks);
 @import url(../blocks);
 @import url(../blocks);
