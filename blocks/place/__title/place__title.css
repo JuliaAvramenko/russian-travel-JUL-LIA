@@ -9,4 +9,22 @@
     color: #FFFFFF;
     max-width: 460px;
     
+
+    
 }
+@media (max-width: 920px) {
+    .place__title {
+        font-size: clamp(42px, 8vw, 72px);
+        line-height: clamp(46px, 8vw, 76px);
+
+    }
+}
+
+@media (max-width: 720px) {
+    .place__title {
+        font-size: clamp(32px, 8vw, 42px);
+        line-height: clamp(35px, 8px, 46px);
+    }
+}
+
+

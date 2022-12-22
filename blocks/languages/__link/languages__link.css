@@ -6,3 +6,11 @@
     line-height: 28px;
 }
 
+@media (max-width: 720px) {
+    .languages__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+

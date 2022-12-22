@@ -3,3 +3,9 @@
     column-gap: 18px;
     flex-wrap: wrap;
 }
+
+@media (max-width: 720px)  {
+    .footer__links {
+        row-gap: 32px;
+    }
+}

@@ -1,5 +1,33 @@
 .place__container {
     display: flex;
     column-gap: 40px;
-    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 984px;
+    
+
 }
+
+@media (max-width: 1024px) {
+    .place_container {
+        max-width: 928px;
+       
+
+    }
+ }
+ @media (max-width: 768px) {
+    .place_container {
+        max-width: 720px;
+        
+
+    }
+ }
+ 
+
+ @media (max-width: 400px) {
+    .place__container {
+        max-width: 320px;
+        flex-wrap: wrap;
+        
+
+    }
+ }
