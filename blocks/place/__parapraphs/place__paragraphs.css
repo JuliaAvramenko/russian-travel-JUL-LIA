@@ -1,4 +1,5 @@
 .place__paragraphs {
+    
     max-width: 484px;
     width: 100%;
     
@@ -18,11 +19,14 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 720px) {
     .place__paragraphs {
-       width: 288px;
-       display: flex;
+       min-width: 288px;
+       padding-left: 16px;
+       padding-right: 16px;
+       padding-top: 32px;
        
+
     
     }
 }

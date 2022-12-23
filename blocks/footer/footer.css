@@ -1,23 +1,23 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    margin-left: 48px;
-    margin-right: 48px;
-    margin-bottom: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 24px;
     
 }
 
 @media (max-width: 768px) {
     .footer {
-        margin-left: 24px;
-        margin-right: 24px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 
 @media (max-width: 720px) {
     .footer {
-        margin-left: 16px;
-        margin-right: 118px;
+        padding-left: 16px;
+        padding-right: 118px;
         flex-wrap: wrap;
     }
 }
