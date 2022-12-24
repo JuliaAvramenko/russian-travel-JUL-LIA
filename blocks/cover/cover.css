@@ -45,15 +45,13 @@
 
 @media (max-width: 768px) {
     .cover {
-         
         margin-bottom: 88px;
     }
 }
 
 @media (max-width: 720px) {
     .cover {
-         
-        margin-bottom: 64px;
+       margin-bottom: 64px;
     }
 }
 

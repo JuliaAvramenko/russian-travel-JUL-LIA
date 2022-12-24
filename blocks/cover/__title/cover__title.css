@@ -4,25 +4,13 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    
+    text-decoration: none;
     color: #FFFFFF;
     max-width: 560px;
     text-align: center;
 
     
 
-}
-
-@media (max-width: 1024px) {
-    .cover {
-        
-    }
-}
-
-@media (max-width: 768px) {
-    .cover {
-        
-    }
 }
 
 @media (max-width: 700px) {

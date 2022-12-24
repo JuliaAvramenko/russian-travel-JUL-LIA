@@ -21,7 +21,6 @@
         padding-right: 24px;
         margin-bottom: 90px;
         row-gap: 72px;
-
     }
 }
 @media (max-width: 320px) {
@@ -29,7 +28,8 @@
         padding-left: 0px;
         padding-right: 0px;
         margin-bottom: 66px;
-        row-gap: 50px;
+        row-gap: 49px; /*сделала 49px, а не 50px, чтобы подровнять по Pixel Perfect*/
+        
 
     }
 }

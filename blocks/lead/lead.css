@@ -3,17 +3,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 148px;
-    margin-right: 148px;
-    margin-top: 20px;
+    padding-left: 148px;
+    padding-right: 148px;
+    margin-top: 28px;
     margin-bottom: 101.19px;
 
 }
 
 @media (max-width: 1024px) {
     .lead {
-        margin-left: 48px;
-        margin-right: 48px;
+        padding-left: 48px;
+        padding-right: 48px;
+        margin-top: 20px;
         margin-bottom: 92px;
 
     }
@@ -21,8 +22,8 @@
 
 @media (max-width: 768px) {
     .lead {
-        margin-left: 0;
-        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
         margin-bottom: 88px;
 
     }

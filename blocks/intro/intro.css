@@ -1,7 +1,8 @@
 .intro {
     margin-left: 148.29px;
     margin-right: 450.1px;
-    margin-bottom: 94.55px;
+    margin-bottom: 83px;
+    /* значение margin-bottom не совпадает c макетом,так как изображение блока intro дано не корректно на разрешении 1280 */
 }
 
 @media (max-width: 1024px) {

@@ -3,8 +3,15 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-/* identical to box height, or 122% */
+    color: #FFFFFF;
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    opacity: 1;
+    
 
-     
-     color: #FFFFFF;
+}
+
+.place__link:hover {
+    opacity: 0.8;
 }
