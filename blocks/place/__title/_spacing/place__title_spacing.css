@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .place__title_spacing {
+        word-spacing: 9999px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .place__title_spacing {
+        word-spacing: normal;
+    }
+
+}
