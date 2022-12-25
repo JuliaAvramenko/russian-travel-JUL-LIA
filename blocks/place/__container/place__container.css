@@ -28,7 +28,7 @@
 
  @media (max-width: 720px) {
     .place__container {
-        min-width: 288px;
+        max-width: 288px;
         flex-wrap: wrap;
         
 
