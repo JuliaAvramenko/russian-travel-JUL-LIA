@@ -3,8 +3,9 @@
     padding: 0;
     color: #FFFFFF;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     font-family: "Inter", Arial, sans-serif;
+    list-style-type: none;
 }

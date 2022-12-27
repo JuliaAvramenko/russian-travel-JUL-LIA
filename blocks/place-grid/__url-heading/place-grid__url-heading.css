@@ -1,4 +1,4 @@
-.place__url-heading {
+.place-grid__url-heading {
     margin: 0;
     padding: 0;
     font-style: normal;
@@ -7,5 +7,6 @@
     line-height: 12px;
     letter-spacing: 2px;
     color: #AAAAAA;
+    text-transform: uppercase;
     
 }

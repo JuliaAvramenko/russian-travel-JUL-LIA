@@ -1,0 +1,18 @@
+.place-grid__paragraph {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .place-grid__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

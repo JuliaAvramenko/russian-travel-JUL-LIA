@@ -1,0 +1,13 @@
+.place-grid__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  row-gap: 12px;
+}
+
+@media (max-width: 720px) {
+  .place-grid__website {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
