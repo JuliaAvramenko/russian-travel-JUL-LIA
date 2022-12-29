@@ -12,7 +12,12 @@
   .place-grid__paragraph {
     font-size: 16px;
     line-height: 26px;
-    padding-left: 16px;
-    padding-right: 16px;
+
+  }
+}
+
+@media (max-width: 620px) {
+  .place-grid__paragraph {
+    max-width: 288px;
   }
 }

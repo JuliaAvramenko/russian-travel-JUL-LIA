@@ -5,10 +5,13 @@
   justify-content: center;
   min-height: 250px;
   row-gap: 32px;
+  text-decoration: none;
 }
 
 @media (max-width: 720px) {
   .cover__container {
     row-gap: 16px;
+    min-height: 134px;
+
   }
 }
