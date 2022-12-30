@@ -38,9 +38,10 @@
 @import url(../blocks/place-grid/__url-heading/place-grid__url-heading.css);
 @import url(../blocks/place-grid/__website/place-grid__website.css);
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__container/cover__container.css);
+@import url(../blocks/cover/__container.css/cover__container.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
+
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

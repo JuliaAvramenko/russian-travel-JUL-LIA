@@ -24,7 +24,6 @@
 
 @media (max-width: 620px) {
   .place-grid__paragraphs {
-    row-gap: 25px;
     min-width: 288px;
     align-items: center;
   }
